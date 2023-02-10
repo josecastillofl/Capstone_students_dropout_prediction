@@ -37,13 +37,20 @@ For modeling I've tested multiplt ML models including Logistic Regression, Rando
 
 For each algorithm, a pipeline was created to preprocess the data and train the classifier. The preprocessor consisted of a ColumnTransformer which applied OneHotEncoding to categorical variables and StandardScaling to numerical variables.
 
-The accuracy of each model was measured using the accuracy_score metric, which compares the predicted labels to the actual labels in the test data. The Logistic Regression model had an accuracy score of 0.759, the Random Forest model had an accuracy score of 0.747, the KNN model had an accuracy score of 0.727, the Gradient Boosting model had an accuracy score of 0.755, and the Neural Network Model was also trained and tested, with an accuracy score of 0.9091. 
+The accuracy of each model was measured using the accuracy_score metric, which compares the predicted labels to the actual labels in the test data. For my baseline model, I used a majority classifier with an accuracy score of 60.8%, the Logistic Regression model had an accuracy score of 75.9%, the Random Forest model had an accuracy score of 74.7%, the KNN model had an accuracy score of 72.7%, the Gradient Boosting model had an accuracy score of 75.5%.
 
+Lastly, I decided to used a Neural Network Model using TensorFlow's Keras library. The model is a simple feedforward Neural Network, consisting of three dense layers. The first layer has 10 units, the second layer also has 10 units, and the final layer has 1 unit. ReLU activation is used in the first two layers and a sigmoid activation is used in the final layer. The model is compiled with the Adam optimizer and the binary cross-entropy loss function, and I ended up with an accuracy score of 91.3%.
 
+## Conclusion
 
+- Using the Neural Network  Predictive Model, we can get an early intervention with student who are likely to dropout, and have a more personalized support for them.
 
+- Promoting scholarships, and make it easy for students to apply, since scholarship holders are 10x more likely to graduate.
 
+## Repo Navigation
 
+Here is the [Main Notebook](/Index.ipynb)
+The notebook containing the Graphs [EDA](/EDA.ipynb)
 
 
 
