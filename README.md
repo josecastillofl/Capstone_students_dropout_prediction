@@ -27,9 +27,10 @@ First We are going to look at a heatmap with our data correlation in order to se
 
 Now here is a graph with some of our features with our targets:
 
-![image](https://user-images.githubusercontent.com/95591600/217391242-60630047-0cea-4966-99fe-9b0b26a0d316.png)
-![image](https://user-images.githubusercontent.com/95591600/217391380-faf8395c-6cd6-402f-a8f1-0b41e3ec296f.png)
-![image](https://user-images.githubusercontent.com/95591600/217392381-165aba0c-99db-4e51-a5d0-64545e37f110.png)
+![image](https://user-images.githubusercontent.com/95591600/219779378-62513a5c-1ef3-4e75-9010-4e442785e14d.png)
+![image](https://user-images.githubusercontent.com/95591600/219779542-cb94b3fb-9b86-4fdf-afc4-3a3a1f9a9c7f.png)
+![image](https://user-images.githubusercontent.com/95591600/219779263-ebdbeb24-49fb-44a0-a7dc-855334dcb1b9.png)
+![image](https://user-images.githubusercontent.com/95591600/219779715-50361ef6-a30e-451c-bd30-8e335e10c061.png)
 
 ## Modeling
 
